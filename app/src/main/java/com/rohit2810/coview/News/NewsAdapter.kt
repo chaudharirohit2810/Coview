@@ -23,7 +23,7 @@ class NewsAdapter internal constructor(context: Context) : RecyclerView.Adapter<
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var newsImageView : ImageView= itemView.findViewById(R.id.news_item_imageview)
-        var sourceTextView: TextView = itemView.findViewById(R.id.news_item_source)
+        var sourceTextView: TextView = itemView.findViewById(R.id.news_source_tv)
         var titleTextView : TextView = itemView.findViewById(R.id.news_item_title)
     }
 
@@ -44,7 +44,9 @@ class NewsAdapter internal constructor(context: Context) : RecyclerView.Adapter<
     }
 
     internal fun setArray(articles: List<Article>) {
-        this.articles = articles
+        if(articles.isNotEmpty()) {
+            this.articles = articles
+        }
 //        this.sources = sources
         notifyDataSetChanged()
     }
