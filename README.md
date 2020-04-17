@@ -12,8 +12,7 @@ Download link
 - ...and many more to come in near future
 
 ## Screenshots
-
-    ![](screenshots/Screenshot_1587113720.png)
+![](screenshots/Screenshot_1587113720.png)
 
 ## License
     Coview: Covid 19 tracker app
