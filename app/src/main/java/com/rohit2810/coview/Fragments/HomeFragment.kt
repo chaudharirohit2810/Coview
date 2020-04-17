@@ -46,17 +46,26 @@ class HomeFragment : Fragment() {
         tv = view.findViewById<View>(R.id.tv) as TextView
 
         val value : Int = arguments?.getInt("value", 0) ?: 0
-        tv.text = value.toString() + "%"
+        if(value != -100) {
+            tv.text = value.toString() + "%"
+        }
         if(!arguments?.getString("url").isNullOrEmpty()) {
-            home_url_tv.visibility = View.VISIBLE
-            home_link_tv.visibility = View.VISIBLE
+            home_cardView.visibility = View.VISIBLE
             home_link_tv.text = arguments?.getString("url", "new") ?: "New"
         }
-        home_perc_tv.text = "The link or Article is " + tv.text.toString() + " real."
-        val animation = ObjectAnimator.ofInt(mProgress, "progress", 0, value);
-        animation.setDuration(3000);
-        animation.setInterpolator(DecelerateInterpolator());
-        animation.start();
+        if(value == -100) {
+            home_perc_tv.text = "Fake detection is not yet applied on this link"
+        }else {
+            home_perc_tv.text = "The link or Article is " + tv.text.toString() + " real."
+        }
+        if(value != -100) {
+            val animation = ObjectAnimator.ofInt(mProgress, "progress", 0, value);
+            animation.setDuration(3000);
+            animation.setInterpolator(DecelerateInterpolator());
+            animation.start();
+        }else {
+            mProgress.visibility = View.INVISIBLE
+        }
 
     }
 
