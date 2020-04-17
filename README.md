@@ -14,9 +14,9 @@ Download link
 ## Screenshots
 <div style="display:flex;">
 <img src="screenshots/Screenshot_1587113720.png" width="150">
-<img src="screenshots/Screenshot_1587113720.png" width="150">
-<img src="screenshots/Screenshot_1587113720.png" width="150">
-<img src="screenshots/Screenshot_1587113720.png" width="150">
+<img src="screenshots/Screenshot_1587113698.png" width="150">
+<img src="screenshots/Screenshot_1587113760.png" width="150">
+<img src="screenshots/Screenshot_1587113780.png" width="150">
 </div>
 
 ## License
