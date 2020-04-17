@@ -19,6 +19,15 @@ Coview is covid 19 tracker which provides you stats and news related to covid 19
 <img src="screenshots/Screenshot_1587113780.png" width="150">
 </div>
 
+## Development
+- Based on MVVM Architecture
+- Retrofit
+- Room
+- Navigation Components
+- ViewModel
+- Kotlin Coroutines
+- and many more
+
 ## License
     Coview: Covid 19 tracker app
     Copyright (C) 2020  Rohit Kailas Chaudhari
