@@ -13,6 +13,9 @@ Download link
 
 ## Screenshots
 <img src="screenshots/Screenshot_1587113720.png" width="150">
+<img src="screenshots/Screenshot_1587113720.png" width="150">
+<img src="screenshots/Screenshot_1587113720.png" width="150">
+<img src="screenshots/Screenshot_1587113720.png" width="150">
 
 ## License
     Coview: Covid 19 tracker app
