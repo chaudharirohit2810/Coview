@@ -3,3 +3,9 @@ The android app which provides you global covid 19 stats as well as stats specif
 
 # Download
 Download link
+
+#Features
+-List 1
+-List 2
+
+
