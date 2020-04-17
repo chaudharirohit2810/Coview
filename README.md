@@ -9,6 +9,6 @@ Download link
 - Country wise stats
 - Covid 19 stats specific to India and statewise stats
 - News articles related to covid 19
-- ...and many more to come 
+- ...and many more to come in near future
 
 
