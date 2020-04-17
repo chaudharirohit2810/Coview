@@ -12,10 +12,12 @@ Download link
 - ...and many more to come in near future
 
 ## Screenshots
+<div style="display:flex;">
 <img src="screenshots/Screenshot_1587113720.png" width="150">
 <img src="screenshots/Screenshot_1587113720.png" width="150">
 <img src="screenshots/Screenshot_1587113720.png" width="150">
 <img src="screenshots/Screenshot_1587113720.png" width="150">
+</div>
 
 ## License
     Coview: Covid 19 tracker app
