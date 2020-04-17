@@ -1,7 +1,4 @@
-<div style="display:flex;">
-    <img src="screenshots/virus.svg" width="50">
-    <span>Coview: Covid-19 Tracker App </span>
-</div>
+# Coview: Covid-19 Tracker App
 Coview is covid 19 tracker which provides you stats and news related to covid 19.
 
 ## Download
