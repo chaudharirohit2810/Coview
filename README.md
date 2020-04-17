@@ -2,7 +2,7 @@
 Coview is covid 19 tracker which provides you stats and news related to covid 19.
 
 ## Download
-<a href="#"><img src="screenshots/download.png"></a>
+<a href="https://github.com/chaudharirohit2810/Coview/raw/1.0/releases/release/coview.apk"><img src="screenshots/download.png" width="50"></a>
 
 ## Features
 - Global covid 19 stats
