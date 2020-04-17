@@ -1,5 +1,5 @@
 <div style="display:flex;">
-    <img src="screenshots/virus.svg">
+    <img src="screenshots/virus.svg" width="50">
     <h1>Coview: Covid-19 Tracker App </h1>
 </div>
 Coview is covid 19 tracker which provides you stats and news related to covid 19.
