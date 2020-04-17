@@ -5,8 +5,9 @@ The android app which provides you global covid 19 stats as well as stats specif
 Download link
 
 ## Features
-- Global covid 19 stats with countrywise stats
-- Covid 19 stats specific to India with statewise stats
+- Global covid 19 stats
+- Country wise stats
+- Covid 19 stats specific to India and statewise stats
 - News articles related to covid 19
 - ...and many more to come 
 
